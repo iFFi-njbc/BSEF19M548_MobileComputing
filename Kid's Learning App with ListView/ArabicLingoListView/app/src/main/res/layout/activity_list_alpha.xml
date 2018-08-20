@@ -10,6 +10,5 @@
     <ListView
         android:id="@+id/listAlphaLV"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#E91E63" />
+        android:layout_height="match_parent" />
 </RelativeLayout>

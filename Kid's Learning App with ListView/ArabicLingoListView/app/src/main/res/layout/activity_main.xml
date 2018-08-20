@@ -9,14 +9,13 @@
 
     <Button
         android:id="@+id/alphaBTN"
-        android:layout_width="211dp"
-        android:layout_height="85dp"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
         android:layout_marginTop="250dp"
-        android:background="@color/purple_200"
+        android:background="@android:color/holo_orange_light"
         android:onClick="launchAlpha"
         android:text="@string/Alpha"
         android:textColor="@color/black"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_weight="1"
@@ -24,15 +23,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/quizBTN"
-        android:layout_width="206dp"
-        android:layout_height="65dp"
+        android:id="@+id/repoBTN"
+        android:layout_width="163dp"
+        android:layout_height="72dp"
         android:layout_marginTop="16dp"
-        android:background="@android:color/holo_orange_light"
+        android:background="@android:color/holo_green_dark"
+        android:linksClickable="true"
+        android:onClick="launchRepo"
+        android:text="@string/Repo"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizBTN" />
+
+    <Button
+        android:id="@+id/quizBTN"
+        android:layout_width="160dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_light"
         android:onClick="launchQuiz"
         android:text="@string/Quiz"
         android:textColor="@color/black"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_weight="1"
@@ -40,32 +54,14 @@
         app:layout_constraintTop_toBottomOf="@+id/alphaBTN" />
 
     <Button
-        android:id="@+id/repoBTN"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/default_option_border_bg"
-        android:linksClickable="true"
-        android:onClick="launchRepo"
-        android:text="@string/Repo"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintHorizontal_weight="1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quizBTN" />
-
-
-
-    <Button
         android:id="@+id/button"
         android:layout_width="53dp"
         android:layout_height="46dp"
-        android:background="@drawable/default_option_border_bg"
+        android:background="@android:color/holo_purple"
         android:onClick="launchList"
         android:text="@string/list"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

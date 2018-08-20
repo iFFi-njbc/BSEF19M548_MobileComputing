@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void launchRepo(View v)
     {
-        Uri uri = Uri.parse("https://github.com/BSEF19M530/M530_MobileComputing");
+        Uri uri = Uri.parse("https://github.com/iFFi-njbc/BSEF19M548_MobileComputing.git");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }

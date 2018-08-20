@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E91E63"
+    android:background="#F16F9B"
     tools:context=".alphabets">
 
     <TableLayout
-        android:layout_width="397dp"
-        android:layout_height="563dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
@@ -159,7 +161,7 @@
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@color/material_dynamic_primary80"
+                android:background="@android:color/holo_blue_light"
                 android:onClick="launchAlphaPage"
                 android:text="@string/a11"
                 android:textColor="#100E0E"
@@ -203,7 +205,7 @@
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@color/material_dynamic_primary60"
+                android:background="@android:color/holo_purple"
                 android:onClick="launchAlphaPage"
                 android:text="@string/a16"
                 android:textColor="#040303"
@@ -216,7 +218,7 @@
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@color/design_default_color_error"
+                android:background="@android:color/holo_red_dark"
                 android:onClick="launchAlphaPage"
                 android:text="@string/a15"
                 android:textColor="#121111"
@@ -229,7 +231,7 @@
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="?android:attr/colorEdgeEffect"
+                android:background="@android:color/holo_blue_bright"
                 android:onClick="launchAlphaPage"
                 android:text="@string/a14"
                 android:textColor="#1B1919"
@@ -357,7 +359,7 @@
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@color/material_dynamic_primary50"
+                android:background="@android:color/holo_blue_dark"
                 android:onClick="launchAlphaPage"
                 android:text="@string/a21"
                 android:textColor="#131111"
@@ -376,11 +378,11 @@
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@android:color/holo_blue_bright"
+                android:background="@android:color/holo_purple"
                 android:onClick="launchAlphaPage"
                 android:text="@string/a26"
-                android:textColor="#0B0A0A"
-                android:textSize="48sp" />
+                android:textColor="#131111"
+                android:textSize="35sp" />
 
             <Button
                 android:id="@+id/btn25"
@@ -389,17 +391,49 @@
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@color/teal_700"
+                android:background="@android:color/holo_orange_light"
                 android:onClick="launchAlphaPage"
                 android:text="@string/a25"
-                android:textColor="#100F0F"
-                android:textSize="48sp" />
-
+                android:textColor="#131111"
+                android:textSize="35sp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="306dp" />
+            android:layout_height="306dp">
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn29"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="30dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:onClick="launchAlphaPage"
+                android:text="@string/a29"
+                android:textColor="#131111"
+                android:textSize="35sp"
+                app:iconTint="@color/teal_700" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+        </TableRow>
 
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

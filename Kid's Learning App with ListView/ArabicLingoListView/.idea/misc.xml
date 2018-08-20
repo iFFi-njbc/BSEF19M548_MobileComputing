@@ -3,15 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout-land/activity_alpha_page.xml" value="0.1" />
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout-land/activity_alphabets.xml" value="0.1" />
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout-land/activity_main.xml" value="0.18033509700176367" />
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout-land/activity_quiz.xml" value="0.18033509700176367" />
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_alpha_page.xml" value="0.19895833333333332" />
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_alphabets.xml" value="0.19895833333333332" />
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_list_alpha.xml" value="0.21302083333333333" />
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_main.xml" value="0.21302083333333333" />
-        <entry key="..\:/Semester6/MC/M530_MobileComputing-main/M530_MobileComputing-main/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_quiz.xml" value="0.21302083333333333" />
+        <entry key="..\:/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout-land/activity_alphabets.xml" value="0.21164021164021163" />
+        <entry key="..\:/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout-land/activity_main.xml" value="0.16049382716049382" />
+        <entry key="..\:/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout-land/activity_quiz.xml" value="0.16049382716049382" />
+        <entry key="..\:/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_alpha_page.xml" value="0.22826086956521738" />
+        <entry key="..\:/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_alphabets.xml" value="0.2" />
+        <entry key="..\:/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_main.xml" value="0.18958333333333333" />
+        <entry key="..\:/Kid's Learning App with ListView/ArabicLingoListView/app/src/main/res/layout/activity_quiz.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/it/AndroidStudioProjects/ArabicLingo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1585" />
         <entry key="..\:/Users/it/AndroidStudioProjects/ArabicLingo/app/src/main/res/drawable/correct_option_border_bg.xml" value="0.1585" />
         <entry key="..\:/Users/it/AndroidStudioProjects/ArabicLingo/app/src/main/res/drawable/default_option_border_bg.xml" value="0.1585" />
